@@ -1,0 +1,111 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav ul {
+  display: inline;
+}
+
+header nav ul li {
+  padding: 15px 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(118, 117, 117);
+  font-size: 20px;
+}
+
+header nav ul img{
+  width: 100px;
+}
+
+header {
+  width: 15%;
+  float: left;
+  border: 1px solid black;
+  height: 1000px;
+}
+
+main {
+  width: 42.5%;
+  height: 1000px;
+  float: left;
+  border: 1px solid black;
+}
+
+main h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  word-wrap: break-word;
+}
+
+main span {
+  float: left;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+main img {
+  width: 95%;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+main + section {
+  width: 42.5%;
+  float: left;
+  height: 500px;
+}
+
+main + section article h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+main + section article span {
+  font-size: 20px;
+  border-bottom: 1px solid darkgrey
+}
+
+section article {
+  padding: 10px 0px;
+  height: 125px;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
