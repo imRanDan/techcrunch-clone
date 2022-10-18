@@ -33,14 +33,29 @@ header nav ul {
   display: inline;
 }
 
+header nav ul li.top-nav-section-break {
+  margin-bottom: 30px;
+}
+
+header nav ul.top-nav-section {
+  padding: 10px 20px;
+}
+
+li.join-tc a
+ {
+  color: orange;
+  font-weight: bolder
+}
+
+
 header nav ul li {
-  padding: 15px 20px;
+  padding: 10px 20px;
 }
 
 header nav ul li a {
   text-decoration: none;
   color: rgb(118, 117, 117);
-  font-size: 20px;
+  font-size: 23px;
 }
 
 header nav ul img{
@@ -50,7 +65,6 @@ header nav ul img{
 header {
   width: 15%;
   float: left;
-  border: 1px solid black;
   height: 1000px;
 }
 
@@ -58,24 +72,24 @@ main {
   width: 42.5%;
   height: 1000px;
   float: left;
-  border: 1px solid black;
 }
 
 main h1 {
   font-size: 40px;
   font-weight: bolder;
   word-wrap: break-word;
+  margin-top: 40px;
 }
 
 main span {
   float: left;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 main img {
   width: 95%;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-right: 80px;
 }
 
@@ -86,19 +100,21 @@ main + section {
 }
 
 main + section article h2 {
-  font-size: 40px;
+  font-size: 30px;
   padding-bottom: 20px;
+  width: 50%;
+  font-weight: bolder;
 }
 
 main + section article span {
-  font-size: 15px;
-  border-bottom: 1px solid #ddd;
+  color: rgb(46, 46, 46);
+  font-size: 18px;
 }
 
-section article {
-  padding: 1em 0px;
-  height: 125px;
-  border: 1px solid black;
+main + section article {
+  padding: 2em 1em;
+  height: 205px;
+  border-bottom: 1px solid #ddd;
 }
 
 
